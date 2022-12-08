@@ -62,7 +62,7 @@ var out = nCartesianProduct( x1, x2 );
 // returns [ [ 1, 4 ], [ 1, 5 ], [ 2, 4 ], [ 2, 5 ], [ 3, 4 ], [ 3, 5 ] ]
 ```
 
-If one or more input arrays are empty, the function returns an empty array.
+If provided one or more empty arrays, the function returns an empty array.
 
 ```javascript
 var x1 = [ 1, 2, 3, 4 ];
@@ -97,8 +97,7 @@ var x2 = linspace( 10, 15, 6 );
 var x3 = linspace( 20, 25, 6 );
 
 var out = nCartesianProduct( x1, x2, x3 );
-console.log( out );
-// e.g., => [ [ 0, 10, 20 ], [ 0, 10, 21 ], ... ]
+// returns [ [ 0, 10, 20 ], [ 0, 10, 21 ], ... ]
 ```
 
 </section>
