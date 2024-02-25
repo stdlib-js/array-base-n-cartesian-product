@@ -42,7 +42,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import nCartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@deno/mod.js';
+import nCartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@v0.2.1-deno/mod.js';
 ```
 
 #### nCartesianProduct( x1, x2\[, ...xN] )
@@ -85,7 +85,7 @@ var out = nCartesianProduct( x1, x2 );
 
 ```javascript
 import linspace from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-linspace@deno/mod.js';
-import nCartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@deno/mod.js';
+import nCartesianProduct from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-n-cartesian-product@v0.2.1-deno/mod.js';
 
 var x1 = linspace( 0, 5, 6 );
 var x2 = linspace( 10, 15, 6 );
